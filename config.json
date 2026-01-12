@@ -1,0 +1,40 @@
+{
+    "api_settings": {
+        "max_reports_per_day": 10,
+        "delay_between_reports": 5,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "use_proxy": false,
+        "proxy_url": ""
+    },
+    "license_settings": {
+        "trial_days": 7,
+        "max_accounts": 50,
+        "paid_max_accounts": 1000
+    },
+    "platform_settings": {
+        "windows": {
+            "require_admin": false,
+            "use_registry": true
+        },
+        "linux": {
+            "require_root": false,
+            "tor_support": true
+        },
+        "kali": {
+            "auto_tor": true,
+            "stealth_mode": true
+        }
+    },
+    "report_categories": [
+        "Spam",
+        "Fake Account",
+        "Harassment",
+        "Hate Speech",
+        "Nudity",
+        "Violence",
+        "Intellectual Property Violation",
+        "Self Harm",
+        "Scam",
+        "Other"
+    ]
+}
